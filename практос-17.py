@@ -24,9 +24,9 @@ class PasswordGenerate:
 
     def generateAllCombination(self, str_password):
         for i in str_password:
-            if i in numbersStr:
+            if i.lower() in numbersStr:
                 self.password_of_numbers += i
-            elif i in simbolsStr:
+            elif i.lower() in simbolsStr:
                 self.password_of_simblos += i
             else:
                 self.password_of_letters += i
