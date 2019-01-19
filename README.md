@@ -1,2 +1,0 @@
-# Practical-works
-#lev pozorka
