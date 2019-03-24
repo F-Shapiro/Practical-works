@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(41, 23, 143);
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    width: 280px;
+    height: 280px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1px;
+}
+
+.first_item{
+    background-image: url(ebs.png);
+    text-align: right
+}
+
+.second_item {
+    background-image: url(ebs2.png);
+    text-align: left;
+}
+
+button {
+    background-color: rgba(137, 43, 226, 0);
+    color: white;
+    font-weight: bold;
+    width: 65px;
+    height: 25px;
+    border: yellow solid 1px;
+    border-radius: 1px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
