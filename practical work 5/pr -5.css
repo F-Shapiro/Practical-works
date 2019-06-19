@@ -1,0 +1,76 @@
+li {
+    list-style: none;
+}
+
+.first {
+    display: inline-block;
+}
+
+.first:last-of-type {
+    position: absolute;
+    top: 128px;
+}
+
+h1,
+h3 {
+    margin-left: 80px;
+}
+
+h3 {
+    font-family: cursive;
+}
+
+form ul li p {
+    margin-bottom: 39px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 386px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(158, 192, 248);
+}
+
+input[type="submit"] {
+    border: none;
+    width: 122px;
+    height: 36px;
+    color: white;
+    background-color: rgb(240, 28, 74);
+    border-radius: 20px;
+}
+
+.lastList {
+    display: inline-block;
+}
+
+.lastList:first-child {
+    content: url(inst.logo.png);
+    width: 6vw;
+}
+
+.lastList:last-child {
+    content: url(vkLogo.png);
+    width: 5vw;
+    margin-bottom: 7px;
+}
+
+.first:last-of-type ul ul {
+    padding-left: 0px;
+}
+
+body {
+    background-color: rgb(158, 192, 248);
+}
+
+img {
+    width: 40%;
+    position: absolute;
+    left: 750px;
+    bottom: 110px;
+}
