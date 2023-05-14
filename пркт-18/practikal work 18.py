@@ -2,7 +2,7 @@ from itertools import permutations
 from os.path import dirname
 from time import time
 alphabet = ''
-with open(dirname(__file__) + '/алфавит.txt', 'r') as myFile:
+with open(dirname(__file__) + '/alphabet.txt', 'r') as myFile:
     alphabet = myFile.read()
 def unlocked(unlocke_str, password):
     if len(unlocke_str) == len(password):
